@@ -64,7 +64,6 @@ const [searchedResults, setSearchedResults] = useState([]);
                 handleEdit={() => handleEdit && handleEdit(post)}
                 handleDelete={() => handleDelete && handleDelete(post)}
                 handleTagClick={handleTagClick}
-                className="h-[450px]"
             />
             ))
         }
@@ -77,7 +76,6 @@ const [searchedResults, setSearchedResults] = useState([]);
                 handleEdit={() => handleEdit && handleEdit(post)}
                 handleDelete={() => handleDelete && handleDelete(post)}
                 handleTagClick={handleTagClick}
-                className="h-[450px]"
             />
             ))}
         </div>)}
