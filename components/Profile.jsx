@@ -64,11 +64,12 @@ const [searchedResults, setSearchedResults] = useState([]);
                 handleEdit={() => handleEdit && handleEdit(post)}
                 handleDelete={() => handleDelete && handleDelete(post)}
                 handleTagClick={handleTagClick}
+                className="h-[450px]"
             />
             ))
         }
         </div>)
-        :(<div className='mt-10 recipe_layout'>
+        :(<div className='mt-8 recipe_layout'>
             {data.map((post) => (
             <RecipeCard
                 key={post.id}
@@ -76,6 +77,7 @@ const [searchedResults, setSearchedResults] = useState([]);
                 handleEdit={() => handleEdit && handleEdit(post)}
                 handleDelete={() => handleDelete && handleDelete(post)}
                 handleTagClick={handleTagClick}
+                className="h-[450px]"
             />
             ))}
         </div>)}

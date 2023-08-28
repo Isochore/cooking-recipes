@@ -5,7 +5,7 @@ const Home = () => (
     <h1 className='head_text text-center'>
       Découvre et partage tes
       <br className='max-md:hidden' />
-      <span className='orange_gradient text-center'> Recette de cuisine</span>
+      <span className='orange_gradient text-center'> Recettes de cuisine</span>
     </h1>
     <p className='desc text-center'>
       Recipe Anywhere est un livre de recette participatif pour
